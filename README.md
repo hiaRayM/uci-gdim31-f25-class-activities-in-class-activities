@@ -3,7 +3,9 @@
 ### W1
 Write your W1 activity Devlog here.
 q1: In this case, the camera will be a stable object fix in sky. Thus, it will show a fix scene of the movement of player in a certain degree(the cat).
-q2: My link: https://hia-raym.itch.io/inclass-activities-small-game
+
+q2: My link: https://hia-raym.itch.io/inclass-activities-small-game.
+
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
 ## Open-Source Assets
