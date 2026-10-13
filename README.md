@@ -6,17 +6,13 @@
 
 Write your W1 activity Devlog here.
 
-<<<<<<< HEAD
+
+q1: In this case, the camera will be a stable object fix in sky. Thus, it will show a fix scene of the movement of player in a certain degree(the cat).
 
 
 q1: In this case, the camera will be a stable object fix in sky. Thus, it will show a fix scene of the movement of player in a certain degree(the cat).
 
 
-
-=======
-q1: In this case, the camera will be a stable object fix in sky. Thus, it will show a fix scene of the movement of player in a certain degree(the cat).
-
->>>>>>> fd087f92c7f7939e420964669826086d6c444de3
 q2: My link: https://hia-raym.itch.io/inclass-activities-small-game.
 
 ### W2
