@@ -18,6 +18,11 @@ Create future Devlog sub-headers with the three # symbols, then write your Devlo
 
 ### W3
 
+1. The parameters of this method should be a float variable or a int variable, because the friendship level should be a number. The knowsecret should be a boolean type because of the "flag" mentions in the text. However, the return type should be a string, because it respones a sentence of language.
+
+2. The parameters of this method should be a float type variable becuase it should input with percent value, which is decimal. There is not return value, which should be void.
+
+3. In this method, there will be two input variables. Those two variables should all be float type value, which respectively named pressTime and targetBeatTime. The presstime is the presstime of player and targetBeatTime is the time to determine whether player's press accurate or not. The return type should be boolean value, because it output yes or not choose.
 
 ## Open-Source Assets
 ### W1
