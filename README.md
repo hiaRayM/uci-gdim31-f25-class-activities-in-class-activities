@@ -42,6 +42,14 @@ Activity 2:
 Activity 3：
 
 1. Because every bounce of the ball can make the color of the ball mutiplied by 1.5. Thus, without reset to this value, the color value of the ball with stacks up exponential. Finally, the color value exceed 1.0 to pure white.
+
+### W4
+
+1. In the collider activity, I set up the rigidbodies for both Soccer and Cat because I thought that it should have something like entity to let them react when collide with each other. The Goal should not have a rigidbody because it should be a judgment area to judge whether soccer is got in side the door. In this case, Goal also should check a IsTrigger, which mean ti trigger when it recogenize the ball.
+
+2. From my personal point of view, ask peer or TA for help is the best way to fix problems that I have already done re-examination after the mistake happened.
+
+
 ## Open-Source Assets
 
 ### W1
