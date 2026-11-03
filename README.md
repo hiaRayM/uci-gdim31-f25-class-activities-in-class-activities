@@ -51,6 +51,13 @@ Table 9
 
 2. From my personal point of view, ask peer or TA for help is the best way to fix problems that I have already done re-examination after the mistake happened.
 
+###  W5
+
+1. There should be two member variables that need to be initialized. The target and the agent, which respectly content the target place that deer should arrive in the end and the AI navigation of the deer.
+
+2. It only need a Start() method.
+
+3. The function of this method is the use SetDestination() to set the final location that the deer need to arrive in the end. Also it can have will use GetComponent to use the AI navigation system to move the deer.
 
 ## Open-Source Assets
 
