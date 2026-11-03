@@ -3,5 +3,18 @@ using UnityEngine.AI;
 
 // Write your DeerW5 class in here :)
 // Hint: if you don't remember what a class is supposed to look like,
-//      maybe check out CatW5...
+//      maybe check out CatW5
+public class DeerW5 : MonoBehaviour
+{
+    [SerializeField] private Transform target;
+    [SerializeField]private NavMeshAgent agent;
+    public void Start()
+    {
+        agent = GetComponent<NavMeshAgent>();
+        if (target != null)
+        {
+            agent.SetDestination(target.position);
+        }
+    }
+}
 // If you copied the class declaration from CatW5, you'd only need to change one thing...
