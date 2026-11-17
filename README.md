@@ -59,7 +59,7 @@ Table 9
 
 3. The function of this method is the use SetDestination() to set the final location that the deer need to arrive in the end. Also it can have will use GetComponent to use the AI navigation system to move the deer.
 
-###  W6
+###  W7
 
 our table link: https://docs.google.com/document/d/1crDX6_ljdbrT8OOdQbNwN7QxS_CrQY8VUW1fGK32XYQ/edit?tab=t.31i8cb3b2rye
 
@@ -68,6 +68,10 @@ my part: Chenao Shang, Terrain.
 1. [SerializeField] float _speed should be introduced to modificate the speed of bat inside inspector; _catTransform should be introduced to remember the cat's position; _isChasing should be introduced to contain judge whether the Bat is chasing or not.
 
 2. We should use method include Update() and Start() and the method create by myself: StartChase(), StopChase(). Inside Start() the GameObject.Find("Cat") is used to find cat and store it inside _catTransform. Inside Update(), we judge _isChasing and then use Vector3.MoveTowards to move at speed is _speed. Inside StartChase() and StopChase(), we define _ischasing to true and false respectively.
+
+###  W8
+
+Original code use movecode “Vector.forward", which will make player move to the original direction when player have already completed rotation. Thus, after it changes to "transform.forward", it will have the correct direction to move even after it completed rotation.
 
 ## Open-Source Assets
 
