@@ -73,6 +73,12 @@ my part: Chenao Shang, Terrain.
 
 Original code use movecode “Vector.forward", which will make player move to the original direction when player have already completed rotation. Thus, after it changes to "transform.forward", it will have the correct direction to move even after it completed rotation.
 
+###  W9
+
+The google drawing link: https://docs.google.com/drawings/d/1-2IHIaQdiXLRiDRT_hTV2GmxWNk5YMZFsmzGb04frVw/edit?usp=sharing
+
+My part: UI Manager
+
 ## Open-Source Assets
 
 ### W1
